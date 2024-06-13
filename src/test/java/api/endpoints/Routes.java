@@ -12,6 +12,7 @@ package api.endpoints;
 public class Routes {
 	
 	public static String base_url = "https://petstore.swagger.io/v2";
+	public static String store_url = "https://petstore.swagger.io/v2/store";
 
 	
 	//User Module
@@ -22,6 +23,12 @@ public class Routes {
 	public static String delete_url = base_url +"/user/{username}";
 	
 	//Store Module
+	
+	public static String store_inv_url = store_url +"/inventory";
+	public static String order_url = store_url +"/order";
+	public static String orderby_id_url = store_url+"/order/{orderid}";
+	public static String deleteby_id_url = store_url+"/order/{orderid}";
+	
 	
 	
 	

@@ -103,24 +103,4 @@ public class XLUtility {
 		fo.close();
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }

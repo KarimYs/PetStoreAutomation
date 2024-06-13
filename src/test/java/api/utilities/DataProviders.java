@@ -54,7 +54,7 @@ public class DataProviders {
 	
 	public String [] getUserName() throws IOException
 	{
-		String path = System.getProperty("user.dir")+"//UserData.xlsx";
+		String path = System.getProperty("user.dir")+"/UserData.xlsx";
 		XLUtility xl = new XLUtility(path);
 		
 		int rownum =xl.getRowCount("Sheet1");
@@ -68,22 +68,71 @@ public class DataProviders {
 		return apidata;
 	}
 	
-@DataProvider(name = "UserNames1")
+	@DataProvider(name = "Order")
 	
-	public String [] getUserName1() throws IOException
+	public String [][] getOrder() throws IOException
 	{
-		String path = System.getProperty("user.dir")+"//UserData.xlsx";
+		String path = System.getProperty("user.dir")+"/StoreData.xlsx";
 		XLUtility xl = new XLUtility(path);
 		
-		int rownum =xl.getRowCount("Sheet2");
-		String apidata[] = new String[rownum];
+		int rownum = xl.getRowCount("Sheet1");
+		int colcount = xl.getCellCount("Sheet1", 1);
 		
-		for(int i =1; i<=rownum;i++)
+		String apidata [][] = new String [rownum][colcount];
+		
+		for(int i=1;i<=rownum;i++)
 		{
-			apidata[i-1]=xl.getCellData("Sheet2", i, 1);
+			for(int j=0;j<colcount;j++)
+			{
+				apidata[i-1][j] = xl.getCellData("Sheet1", i, j);
+			}
 		}
-		
 		return apidata;
 	}
+	
+//	@DataProvider(name = "OrderById")
+//	
+//	public Object[][] getOrderById() throws IOException 
+//	{
+//		String path = System.getProperty("user.dir") + "/OrderData.xlsx";
+//	    XLUtility xl = new XLUtility(path);
+//
+//	    int rownum = xl.getRowCount("Sheet1");
+//	    Object[][] apidata = new Object[rownum - 1][1];
+//
+//	    for (int i = 1; i < rownum; i++)
+//	    {
+//	    	String cellData = xl.getCellData("Sheet1", i, 0).trim();
+//	        System.out.println("Reading cell data from row " + i + ": '" + cellData + "'");
+//	        if (!cellData.isEmpty() && cellData.matches("\\d+")) 
+//	        {
+//	        	apidata[i - 1][0] = Integer.parseInt(cellData);
+//	        } 
+//	        else 
+//	        {
+//	        	throw new RuntimeException("Invalid data in Excel: " + cellData);
+//	        }
+//	    }
+//	    
+//	    return apidata;
+//	 }
+	
+	
+@DataProvider(name = "OrderById")
+	
+public Object[] getOrderById() throws IOException {
+    String path = System.getProperty("user.dir") + "/OrderData.xlsx";
+    XLUtility xl = new XLUtility(path);
 
+    int rownum = xl.getRowCount("Sheet1");
+    Object[] apidata = new Object[rownum];
+
+    for (int i = 1; i <= rownum; i++) {
+        // Convert the cell data to an integer
+        apidata[i - 1] = Integer.parseInt(xl.getCellData("Sheet1", i, 0)); // column index 0 for orderId
+    }
+
+    return apidata;
+}
+	
 }

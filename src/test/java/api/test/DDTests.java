@@ -1,4 +1,4 @@
-package api.test;
+	package api.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -45,16 +45,8 @@ public class DDTests {
 		
 	}
 	
-//	@Test(priority = 3, dataProvider = "UserNames1", dataProviderClass = DataProviders.class)
-//	public void testGetuser(String userName) 
-//	{
-//			
-//		Response response = UserEndPoints.readUser(userName);
-//		Assert.assertEquals(response.getStatusCode(), 200);
-//		
-//	}
-	
-	@Test(priority = 4, dataProvider = "UserNames", dataProviderClass = DataProviders.class)
+
+	@Test(priority = 3, dataProvider = "UserNames", dataProviderClass = DataProviders.class)
 	
 	public void testDeleteUserByName(String userName) 
 	{
