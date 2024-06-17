@@ -90,35 +90,7 @@ public class DataProviders {
 		return apidata;
 	}
 	
-//	@DataProvider(name = "OrderById")
-//	
-//	public Object[][] getOrderById() throws IOException 
-//	{
-//		String path = System.getProperty("user.dir") + "/OrderData.xlsx";
-//	    XLUtility xl = new XLUtility(path);
-//
-//	    int rownum = xl.getRowCount("Sheet1");
-//	    Object[][] apidata = new Object[rownum - 1][1];
-//
-//	    for (int i = 1; i < rownum; i++)
-//	    {
-//	    	String cellData = xl.getCellData("Sheet1", i, 0).trim();
-//	        System.out.println("Reading cell data from row " + i + ": '" + cellData + "'");
-//	        if (!cellData.isEmpty() && cellData.matches("\\d+")) 
-//	        {
-//	        	apidata[i - 1][0] = Integer.parseInt(cellData);
-//	        } 
-//	        else 
-//	        {
-//	        	throw new RuntimeException("Invalid data in Excel: " + cellData);
-//	        }
-//	    }
-//	    
-//	    return apidata;
-//	 }
-	
-	
-@DataProvider(name = "OrderById")
+  @DataProvider(name = "OrderById")
 	
 public Object[] getOrderById() throws IOException {
     String path = System.getProperty("user.dir") + "/OrderData.xlsx";
