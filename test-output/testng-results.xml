@@ -1,266 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-23T13:28:35 IST" name="Default suite" finished-at="2024-06-23T13:29:14 IST" duration-ms="39104">
+  <suite started-at="2024-06-23T13:59:15 IST" name="Default suite" finished-at="2024-06-23T13:59:20 IST" duration-ms="5257">
     <groups>
     </groups>
-    <test started-at="2024-06-23T13:28:35 IST" name="Default test" finished-at="2024-06-23T13:29:14 IST" duration-ms="39104">
-      <class name="api.test.PetTests">
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:43 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:47 IST" duration-ms="3728" status="PASS">
+    <test started-at="2024-06-23T13:59:15 IST" name="Default test" finished-at="2024-06-23T13:59:20 IST" duration-ms="5257">
+      <class name="api.test.StoreTests">
+        <test-method signature="testGetOrderId(int)[pri:3, instance:api.test.StoreTests@223191a6]" started-at="2024-06-23T13:59:17 IST" name="testGetOrderId" data-provider="OrderById" finished-at="2024-06-23T13:59:20 IST" duration-ms="3507" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Pet@d74bac4]]>
+                <![CDATA[7]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.test.StoreTests.testGetOrderId(StoreTests.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:47 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:48 IST" duration-ms="1092" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@47c96f2c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:48 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:49 IST" duration-ms="1106" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@260d48f5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:49 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:50 IST" duration-ms="1162" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@79b63325]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:50 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:51 IST" duration-ms="1128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@7ce30c0b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:51 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:52 IST" duration-ms="1040" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@14292d71]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:52 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:53 IST" duration-ms="1133" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@1bec1589]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:53 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:54 IST" duration-ms="1128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@18db3b3c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:54 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:56 IST" duration-ms="1092" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@419f0ea]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:56 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:57 IST" duration-ms="1130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@57f2e67]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:57 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:58 IST" duration-ms="1152" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@194037f9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:58 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:28:59 IST" duration-ms="1209" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@35ab4260]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:28:59 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:29:00 IST" duration-ms="1092" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@6533629]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testAddPet(api.payload.Pet)[pri:1, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:00 IST" name="testAddPet" data-provider="PetData" finished-at="2024-06-23T13:29:01 IST" duration-ms="1149" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@a99c42c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPet -->
-        <test-method signature="testUpdatePet(api.payload.Pet)[pri:2, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:02 IST" name="testUpdatePet" data-provider="UpdatePetData" finished-at="2024-06-23T13:29:04 IST" duration-ms="1097" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@57fce8b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testUpdatePet(api.payload.Pet)[pri:2, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:04 IST" name="testUpdatePet" data-provider="UpdatePetData" finished-at="2024-06-23T13:29:05 IST" duration-ms="1088" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@3eedd0e3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testUpdatePet(api.payload.Pet)[pri:2, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:05 IST" name="testUpdatePet" data-provider="UpdatePetData" finished-at="2024-06-23T13:29:06 IST" duration-ms="1078" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@158e6fc2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testUpdatePet(api.payload.Pet)[pri:2, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:06 IST" name="testUpdatePet" data-provider="UpdatePetData" finished-at="2024-06-23T13:29:07 IST" duration-ms="1079" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@420b55ed]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testUpdatePet(api.payload.Pet)[pri:2, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:07 IST" name="testUpdatePet" data-provider="UpdatePetData" finished-at="2024-06-23T13:29:08 IST" duration-ms="1166" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@647ff23e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testFindByStatus(java.lang.String)[pri:3, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:08 IST" name="testFindByStatus" data-provider="FindByStatus" finished-at="2024-06-23T13:29:10 IST" duration-ms="1618" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFindByStatus -->
-        <test-method signature="testfindPetId(int)[pri:4, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:10 IST" name="testfindPetId" data-provider="findPetId" finished-at="2024-06-23T13:29:11 IST" duration-ms="1488" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testfindPetId -->
-        <test-method signature="testUpdatePet1(api.payload.Pet)[pri:5, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:11 IST" name="testUpdatePet1" data-provider="UpdatePetData1" finished-at="2024-06-23T13:29:12 IST" duration-ms="1073" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[api.payload.Pet@4746fb8c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet1 -->
-        <test-method signature="testdeleteById(int)[pri:6, instance:api.test.PetTests@59662a0b]" started-at="2024-06-23T13:29:12 IST" name="testdeleteById" data-provider="DeleteById" finished-at="2024-06-23T13:29:14 IST" duration-ms="1330" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testdeleteById -->
-      </class> <!-- api.test.PetTests -->
+        </test-method> <!-- testGetOrderId -->
+      </class> <!-- api.test.StoreTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

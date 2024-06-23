@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">59 methods,   59 passed</span>
+                    <span class="method-stats">82 methods, 2 failed,   80 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testGetOrderId(7)">testGetOrderId(7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testdeleteOrderId(7)">testdeleteOrderId(7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,42 +122,77 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@176e839e)">testAddPet(api.payload.Pet@176e839e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@50013a15)">testAddPet(api.payload.Pet@50013a15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@1e36baca)">testAddPet(api.payload.Pet@1e36baca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@16c8e9b8)">testAddPet(api.payload.Pet@16c8e9b8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@7d4bdbd8)">testAddPet(api.payload.Pet@7d4bdbd8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@632b96b8)">testAddPet(api.payload.Pet@632b96b8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@7b9fea11)">testAddPet(api.payload.Pet@7b9fea11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@1e14b269)">testAddPet(api.payload.Pet@1e14b269)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@2e64ae1a)">testAddPet(api.payload.Pet@2e64ae1a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@7bdf94f2)">testAddPet(api.payload.Pet@7bdf94f2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@6738e8b2)">testAddPet(api.payload.Pet@6738e8b2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@10830d50)">testAddPet(api.payload.Pet@10830d50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@2245ccaa)">testAddPet(api.payload.Pet@2245ccaa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testAddPet(api.payload.Pet@31c0c7e5)">testAddPet(api.payload.Pet@31c0c7e5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser13)">testDeleteUserByName(testuser13)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser7)">testDeleteUserByName(testuser7)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser6)">testDeleteUserByName(testuser6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser9)">testDeleteUserByName(testuser9)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser4)">testDeleteUserByName(testuser4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testDeleteUserByName">testDeleteUserByName</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser5)">testDeleteUserByName(testuser5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,22 +207,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser14)">testDeleteUserByName(testuser14)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser10)">testDeleteUserByName(testuser10)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser2)">testDeleteUserByName(testuser2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser12)">testDeleteUserByName(testuser12)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -178,12 +217,62 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser14)">testDeleteUserByName(testuser14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testDeleteUserByName">testDeleteUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser13)">testDeleteUserByName(testuser13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser4)">testDeleteUserByName(testuser4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser6)">testDeleteUserByName(testuser6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser5)">testDeleteUserByName(testuser5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser12)">testDeleteUserByName(testuser12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser7)">testDeleteUserByName(testuser7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser9)">testDeleteUserByName(testuser9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser8)">testDeleteUserByName(testuser8)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testGetOrderId(7)">testGetOrderId(7)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser2)">testDeleteUserByName(testuser2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testFindByStatus(available)">testFindByStatus(available)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -193,17 +282,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)">testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -213,17 +292,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)">testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -233,17 +317,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE)">testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)">testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)">testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)">testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -253,17 +342,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)">testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1256, testuser7, tuv, wxyz, a@gmail.com, test@7, 1234567897)">testPostuser(1256, testuser7, tuv, wxyz, a@gmail.com, test@7, 1234567897)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)">testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)">testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -273,12 +357,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)">testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)">testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)">testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)">testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)">testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)">testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)">testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -298,17 +397,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)">testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)">testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)">testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)">testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -318,32 +407,47 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(api.payload.Pet@33563147)">testUpdatePet(api.payload.Pet@33563147)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(api.payload.Pet@66046e7c)">testUpdatePet(api.payload.Pet@66046e7c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(api.payload.Pet@6127ef86)">testUpdatePet(api.payload.Pet@6127ef86)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(api.payload.Pet@35e357b)">testUpdatePet(api.payload.Pet@35e357b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(api.payload.Pet@282aea3c)">testUpdatePet(api.payload.Pet@282aea3c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testUpdatePet1(api.payload.Pet@29c21acb)">testUpdatePet1(api.payload.Pet@29c21acb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testUpdateUserByName">testUpdateUserByName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser13, y, z, c@gmail.com)">testUpdateuser(testuser13, y, z, c@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser4, g, h, c@gmail.com)">testUpdateuser(testuser4, g, h, c@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser3, e, f, e@gmail.com)">testUpdateuser(testuser3, e, f, e@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser8, o, p, d@gmail.com)">testUpdateuser(testuser8, o, p, d@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser2, c, d, d@gmail.com)">testUpdateuser(testuser2, c, d, d@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser12, w, x, e@gmail.com)">testUpdateuser(testuser12, w, x, e@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -358,17 +462,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser5, i, j, d@gmail.com)">testUpdateuser(testuser5, i, j, d@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser7, m, n, c@gmail.com)">testUpdateuser(testuser7, m, n, c@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser12, w, x, e@gmail.com)">testUpdateuser(testuser12, w, x, e@gmail.com)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser3, e, f, e@gmail.com)">testUpdateuser(testuser3, e, f, e@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -378,12 +472,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser10, s, t, c@gmail.com)">testUpdateuser(testuser10, s, t, c@gmail.com)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser9, q, r, e@gmail.com)">testUpdateuser(testuser9, q, r, e@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser9, q, r, e@gmail.com)">testUpdateuser(testuser9, q, r, e@gmail.com)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser8, o, p, d@gmail.com)">testUpdateuser(testuser8, o, p, d@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser13, y, z, c@gmail.com)">testUpdateuser(testuser13, y, z, c@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -393,7 +492,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="testdeleteOrderId(7)">testdeleteOrderId(7)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser7, m, n, c@gmail.com)">testUpdateuser(testuser7, m, n, c@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser10, s, t, c@gmail.com)">testUpdateuser(testuser10, s, t, c@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser4, g, h, c@gmail.com)">testUpdateuser(testuser4, g, h, c@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateuser(testuser5, i, j, d@gmail.com)">testUpdateuser(testuser5, i, j, d@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testdeleteById(4)">testdeleteById(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.test.PetTests" class="method navigator-link" hash-for-method="testfindPetId(5)">testfindPetId(5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -408,6 +532,40 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.StoreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetOrderId(7)">
+                  </a> <!-- testGetOrderId(7) -->
+                  <span class="method-name">testGetOrderId</span>
+                  <span class="parameters">(7)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.StoreTests.testGetOrderId(StoreTests.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testdeleteOrderId(7)">
+                  </a> <!-- testdeleteOrderId(7) -->
+                  <span class="method-name">testdeleteOrderId</span>
+                  <span class="parameters">(7)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.StoreTests.testdeleteOrderId(StoreTests.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -447,57 +605,104 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.test.DDTests</span>
+              <span class="class-name">api.test.StoreTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser13)">
-                  </a> <!-- testDeleteUserByName(testuser13) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser13)</span>
+                  <a name="testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)">
+                  </a> <!-- testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(132,175,9,2024-06-10T15:07:58.751Z,placed,FALSE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser7)">
-                  </a> <!-- testDeleteUserByName(testuser7) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser7)</span>
+                  <a name="testPostOrderPets(128, 171, 5, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(128, 171, 5, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(128,171,5,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser6)">
-                  </a> <!-- testDeleteUserByName(testuser6) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser6)</span>
+                  <a name="testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(129,172,6,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser9)">
-                  </a> <!-- testDeleteUserByName(testuser9) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser9)</span>
+                  <a name="testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(127,170,4,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser4)">
-                  </a> <!-- testDeleteUserByName(testuser4) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser4)</span>
+                  <a name="testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(130,173,7,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser5)">
-                  </a> <!-- testDeleteUserByName(testuser5) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser5)</span>
+                  <a name="testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(126,169,3,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostOrderPets(124, 167, 1, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(124, 167, 1, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(124,167,1,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(131,174,8,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE)">
+                  </a> <!-- testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(133,176,10,2024-06-10T15:07:58.751Z,placed,FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)">
+                  </a> <!-- testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
+                  <span class="method-name">testPostOrderPets</span>
+                  <span class="parameters">(125,168,2,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStoreInventory">
+                  </a> <!-- testStoreInventory -->
+                  <span class="method-name">testStoreInventory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.DDTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="testDeleteUserByName(testuser11)">
@@ -516,34 +721,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteUserByName(testuser14)">
-                  </a> <!-- testDeleteUserByName(testuser14) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser14)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testDeleteUserByName(testuser10)">
                   </a> <!-- testDeleteUserByName(testuser10) -->
                   <span class="method-name">testDeleteUserByName</span>
                   <span class="parameters">(testuser10)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteUserByName(testuser2)">
-                  </a> <!-- testDeleteUserByName(testuser2) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteUserByName(testuser12)">
-                  </a> <!-- testDeleteUserByName(testuser12) -->
-                  <span class="method-name">testDeleteUserByName</span>
-                  <span class="parameters">(testuser12)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -556,6 +737,70 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testDeleteUserByName(testuser14)">
+                  </a> <!-- testDeleteUserByName(testuser14) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser13)">
+                  </a> <!-- testDeleteUserByName(testuser13) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser4)">
+                  </a> <!-- testDeleteUserByName(testuser4) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser6)">
+                  </a> <!-- testDeleteUserByName(testuser6) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser5)">
+                  </a> <!-- testDeleteUserByName(testuser5) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser12)">
+                  </a> <!-- testDeleteUserByName(testuser12) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser7)">
+                  </a> <!-- testDeleteUserByName(testuser7) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser9)">
+                  </a> <!-- testDeleteUserByName(testuser9) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testDeleteUserByName(testuser8)">
                   </a> <!-- testDeleteUserByName(testuser8) -->
                   <span class="method-name">testDeleteUserByName</span>
@@ -564,10 +809,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)">
-                  </a> <!-- testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897) -->
+                  <a name="testDeleteUserByName(testuser2)">
+                  </a> <!-- testDeleteUserByName(testuser2) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)">
+                  </a> <!-- testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897) -->
                   <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1257,testuser8,adf,affd,b@gmail.com,test@8,1234567897)</span>
+                  <span class="parameters">(1255,testuser6,nop,qrs,c@gmail.com,test@6,1234567897)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -580,14 +833,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)">
-                  </a> <!-- testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897) -->
-                  <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1260,testuser11,oijklnv,hbbo,b@gmail.com,test@11,1234567897)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testPostuser(1256, testuser7, tuv, wxyz, a@gmail.com, test@7, 1234567897)">
                   </a> <!-- testPostuser(1256, testuser7, tuv, wxyz, a@gmail.com, test@7, 1234567897) -->
                   <span class="method-name">testPostuser</span>
@@ -596,10 +841,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)">
-                  </a> <!-- testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897) -->
+                  <a name="testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)">
+                  </a> <!-- testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897) -->
                   <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1258,testuser9,ewrre,efggv,c@gmail.com,test@9,1234567897)</span>
+                  <span class="parameters">(1253,testuser4,abc,def,a@gmail.com,test@4,1234567897)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -612,18 +857,42 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)">
-                  </a> <!-- testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897) -->
+                  <a name="testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)">
+                  </a> <!-- testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897) -->
                   <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1252,testuser3,Smith,Steve,c@gmail.com,test@3,1234567897)</span>
+                  <span class="parameters">(1262,testuser13,nbljjee,nlkjhd,a@gmail.com,test@13,1234567897)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)">
-                  </a> <!-- testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897) -->
+                  <a name="testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)">
+                  </a> <!-- testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897) -->
                   <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1253,testuser4,abc,def,a@gmail.com,test@4,1234567897)</span>
+                  <span class="parameters">(1260,testuser11,oijklnv,hbbo,b@gmail.com,test@11,1234567897)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)">
+                  </a> <!-- testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897) -->
+                  <span class="method-name">testPostuser</span>
+                  <span class="parameters">(1257,testuser8,adf,affd,b@gmail.com,test@8,1234567897)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)">
+                  </a> <!-- testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897) -->
+                  <span class="method-name">testPostuser</span>
+                  <span class="parameters">(1254,testuser5,fhi,klm,b@gmail.com,test@5,1234567897)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)">
+                  </a> <!-- testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897) -->
+                  <span class="method-name">testPostuser</span>
+                  <span class="parameters">(1252,testuser3,Smith,Steve,c@gmail.com,test@3,1234567897)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -652,58 +921,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)">
-                  </a> <!-- testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897) -->
+                  <a name="testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)">
+                  </a> <!-- testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897) -->
                   <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1255,testuser6,nop,qrs,c@gmail.com,test@6,1234567897)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)">
-                  </a> <!-- testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897) -->
-                  <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1262,testuser13,nbljjee,nlkjhd,a@gmail.com,test@13,1234567897)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)">
-                  </a> <!-- testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897) -->
-                  <span class="method-name">testPostuser</span>
-                  <span class="parameters">(1254,testuser5,fhi,klm,b@gmail.com,test@5,1234567897)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateuser(testuser13, y, z, c@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser13, y, z, c@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser13,y,z,c@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateuser(testuser4, g, h, c@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser4, g, h, c@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser4,g,h,c@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateuser(testuser3, e, f, e@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser3, e, f, e@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser3,e,f,e@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateuser(testuser8, o, p, d@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser8, o, p, d@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser8,o,p,d@gmail.com)</span>
+                  <span class="parameters">(1258,testuser9,ewrre,efggv,c@gmail.com,test@9,1234567897)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -712,6 +933,14 @@
                   </a> <!-- testUpdateuser(testuser2, c, d, d@gmail.com) -->
                   <span class="method-name">testUpdateuser</span>
                   <span class="parameters">(testuser2,c,d,d@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser12, w, x, e@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser12, w, x, e@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser12,w,x,e@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -732,26 +961,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testUpdateuser(testuser5, i, j, d@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser5, i, j, d@gmail.com) -->
+                  <a name="testUpdateuser(testuser3, e, f, e@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser3, e, f, e@gmail.com) -->
                   <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser5,i,j,d@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateuser(testuser7, m, n, c@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser7, m, n, c@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser7,m,n,c@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateuser(testuser12, w, x, e@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser12, w, x, e@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser12,w,x,e@gmail.com)</span>
+                  <span class="parameters">(testuser3,e,f,e@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -764,18 +977,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testUpdateuser(testuser10, s, t, c@gmail.com)">
-                  </a> <!-- testUpdateuser(testuser10, s, t, c@gmail.com) -->
-                  <span class="method-name">testUpdateuser</span>
-                  <span class="parameters">(testuser10,s,t,c@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testUpdateuser(testuser9, q, r, e@gmail.com)">
                   </a> <!-- testUpdateuser(testuser9, q, r, e@gmail.com) -->
                   <span class="method-name">testUpdateuser</span>
                   <span class="parameters">(testuser9,q,r,e@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser8, o, p, d@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser8, o, p, d@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser8,o,p,d@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser13, y, z, c@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser13, y, z, c@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser13,y,z,c@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -786,115 +1007,228 @@
                   <span class="parameters">(testuser1,a,b,c@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser7, m, n, c@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser7, m, n, c@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser7,m,n,c@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser10, s, t, c@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser10, s, t, c@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser10,s,t,c@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser4, g, h, c@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser4, g, h, c@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser4,g,h,c@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateuser(testuser5, i, j, d@gmail.com)">
+                  </a> <!-- testUpdateuser(testuser5, i, j, d@gmail.com) -->
+                  <span class="method-name">testUpdateuser</span>
+                  <span class="parameters">(testuser5,i,j,d@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.test.StoreTests</span>
+              <span class="class-name">api.test.PetTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetOrderId(7)">
-                  </a> <!-- testGetOrderId(7) -->
-                  <span class="method-name">testGetOrderId</span>
-                  <span class="parameters">(7)</span>
+                  <a name="testAddPet(api.payload.Pet@176e839e)">
+                  </a> <!-- testAddPet(api.payload.Pet@176e839e) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@176e839e)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(125,168,2,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@50013a15)">
+                  </a> <!-- testAddPet(api.payload.Pet@50013a15) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@50013a15)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(127,170,4,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@1e36baca)">
+                  </a> <!-- testAddPet(api.payload.Pet@1e36baca) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@1e36baca)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(126,169,3,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@16c8e9b8)">
+                  </a> <!-- testAddPet(api.payload.Pet@16c8e9b8) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@16c8e9b8)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(128, 171, 5, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(128, 171, 5, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(128,171,5,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@7d4bdbd8)">
+                  </a> <!-- testAddPet(api.payload.Pet@7d4bdbd8) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@7d4bdbd8)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(130,173,7,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@632b96b8)">
+                  </a> <!-- testAddPet(api.payload.Pet@632b96b8) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@632b96b8)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)">
-                  </a> <!-- testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(132,175,9,2024-06-10T15:07:58.751Z,placed,FALSE)</span>
+                  <a name="testAddPet(api.payload.Pet@7b9fea11)">
+                  </a> <!-- testAddPet(api.payload.Pet@7b9fea11) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@7b9fea11)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(131,174,8,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@1e14b269)">
+                  </a> <!-- testAddPet(api.payload.Pet@1e14b269) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@1e14b269)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(124, 167, 1, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(124, 167, 1, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(124,167,1,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@2e64ae1a)">
+                  </a> <!-- testAddPet(api.payload.Pet@2e64ae1a) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@2e64ae1a)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE)">
-                  </a> <!-- testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(133,176,10,2024-06-10T15:07:58.751Z,placed,FALSE)</span>
+                  <a name="testAddPet(api.payload.Pet@7bdf94f2)">
+                  </a> <!-- testAddPet(api.payload.Pet@7bdf94f2) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@7bdf94f2)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)">
-                  </a> <!-- testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE) -->
-                  <span class="method-name">testPostOrderPets</span>
-                  <span class="parameters">(129,172,6,2024-06-10T15:07:58.751Z,placed,TRUE)</span>
+                  <a name="testAddPet(api.payload.Pet@6738e8b2)">
+                  </a> <!-- testAddPet(api.payload.Pet@6738e8b2) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@6738e8b2)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testStoreInventory">
-                  </a> <!-- testStoreInventory -->
-                  <span class="method-name">testStoreInventory</span>
+                  <a name="testAddPet(api.payload.Pet@10830d50)">
+                  </a> <!-- testAddPet(api.payload.Pet@10830d50) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@10830d50)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testdeleteOrderId(7)">
-                  </a> <!-- testdeleteOrderId(7) -->
-                  <span class="method-name">testdeleteOrderId</span>
-                  <span class="parameters">(7)</span>
+                  <a name="testAddPet(api.payload.Pet@2245ccaa)">
+                  </a> <!-- testAddPet(api.payload.Pet@2245ccaa) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@2245ccaa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddPet(api.payload.Pet@31c0c7e5)">
+                  </a> <!-- testAddPet(api.payload.Pet@31c0c7e5) -->
+                  <span class="method-name">testAddPet</span>
+                  <span class="parameters">(api.payload.Pet@31c0c7e5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindByStatus(available)">
+                  </a> <!-- testFindByStatus(available) -->
+                  <span class="method-name">testFindByStatus</span>
+                  <span class="parameters">(available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(api.payload.Pet@33563147)">
+                  </a> <!-- testUpdatePet(api.payload.Pet@33563147) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(api.payload.Pet@33563147)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(api.payload.Pet@66046e7c)">
+                  </a> <!-- testUpdatePet(api.payload.Pet@66046e7c) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(api.payload.Pet@66046e7c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(api.payload.Pet@6127ef86)">
+                  </a> <!-- testUpdatePet(api.payload.Pet@6127ef86) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(api.payload.Pet@6127ef86)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(api.payload.Pet@35e357b)">
+                  </a> <!-- testUpdatePet(api.payload.Pet@35e357b) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(api.payload.Pet@35e357b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(api.payload.Pet@282aea3c)">
+                  </a> <!-- testUpdatePet(api.payload.Pet@282aea3c) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(api.payload.Pet@282aea3c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet1(api.payload.Pet@29c21acb)">
+                  </a> <!-- testUpdatePet1(api.payload.Pet@29c21acb) -->
+                  <span class="method-name">testUpdatePet1</span>
+                  <span class="parameters">(api.payload.Pet@29c21acb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testdeleteById(4)">
+                  </a> <!-- testdeleteById(4) -->
+                  <span class="method-name">testdeleteById</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindPetId(5)">
+                  </a> <!-- testfindPetId(5) -->
+                  <span class="method-name">testfindPetId</span>
+                  <span class="parameters">(5)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -911,6 +1245,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.test.DDTests&quot;/&gt;
+      &lt;class name=&quot;api.test.PetTests&quot;/&gt;
       &lt;class name=&quot;api.test.StoreTests&quot;/&gt;
       &lt;class name=&quot;api.test.UserTests&quot;/&gt;
     &lt;/classes&gt;
@@ -926,7 +1261,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -952,248 +1287,340 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(59);
+data.addRows(82);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testPostuser')
 data.setCell(0, 2, 'api.test.DDTests')
-data.setCell(0, 3, 6972);
+data.setCell(0, 3, 3857);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testPostOrderPets')
-data.setCell(1, 2, 'api.test.StoreTests')
-data.setCell(1, 3, 5873);
+data.setCell(1, 1, 'testUpdateUserByName')
+data.setCell(1, 2, 'api.test.UserTests')
+data.setCell(1, 3, 2094);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testPostuser')
-data.setCell(2, 2, 'api.test.DDTests')
-data.setCell(2, 3, 4991);
+data.setCell(2, 1, 'testFindByStatus')
+data.setCell(2, 2, 'api.test.PetTests')
+data.setCell(2, 3, 1493);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testUpdateUserByName')
-data.setCell(3, 2, 'api.test.UserTests')
-data.setCell(3, 3, 4761);
+data.setCell(3, 1, 'testAddPet')
+data.setCell(3, 2, 'api.test.PetTests')
+data.setCell(3, 3, 1258);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDeleteUserByName')
-data.setCell(4, 2, 'api.test.DDTests')
-data.setCell(4, 3, 4550);
+data.setCell(4, 1, 'testAddPet')
+data.setCell(4, 2, 'api.test.PetTests')
+data.setCell(4, 3, 1214);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testUpdateuser')
 data.setCell(5, 2, 'api.test.DDTests')
-data.setCell(5, 3, 4346);
+data.setCell(5, 3, 1183);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testPostuser')
+data.setCell(6, 1, 'testUpdateuser')
 data.setCell(6, 2, 'api.test.DDTests')
-data.setCell(6, 3, 3432);
+data.setCell(6, 3, 1178);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testPostuser')
+data.setCell(7, 1, 'testUpdateuser')
 data.setCell(7, 2, 'api.test.DDTests')
-data.setCell(7, 3, 3386);
+data.setCell(7, 3, 1164);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testPostuser')
-data.setCell(8, 2, 'api.test.DDTests')
-data.setCell(8, 3, 3158);
+data.setCell(8, 1, 'testdeleteOrderId')
+data.setCell(8, 2, 'api.test.StoreTests')
+data.setCell(8, 3, 1163);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testPostOrderPets')
-data.setCell(9, 2, 'api.test.StoreTests')
-data.setCell(9, 3, 3130);
+data.setCell(9, 1, 'testDeleteUserByName')
+data.setCell(9, 2, 'api.test.DDTests')
+data.setCell(9, 3, 1146);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testPostOrderPets')
-data.setCell(10, 2, 'api.test.StoreTests')
-data.setCell(10, 3, 3093);
+data.setCell(10, 1, 'testDeleteUserByName')
+data.setCell(10, 2, 'api.test.DDTests')
+data.setCell(10, 3, 1136);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testPostuser')
+data.setCell(11, 1, 'testUpdateuser')
 data.setCell(11, 2, 'api.test.DDTests')
-data.setCell(11, 3, 2991);
+data.setCell(11, 3, 1134);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testPostuser')
+data.setCell(12, 1, 'testUpdateuser')
 data.setCell(12, 2, 'api.test.DDTests')
-data.setCell(12, 3, 2969);
+data.setCell(12, 3, 1131);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testStoreInventory')
-data.setCell(13, 2, 'api.test.StoreTests')
-data.setCell(13, 3, 2968);
+data.setCell(13, 1, 'testUpdatePet1')
+data.setCell(13, 2, 'api.test.PetTests')
+data.setCell(13, 3, 1131);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testPostOrderPets')
 data.setCell(14, 2, 'api.test.StoreTests')
-data.setCell(14, 3, 2940);
+data.setCell(14, 3, 1120);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'testDeleteUserByName')
 data.setCell(15, 2, 'api.test.DDTests')
-data.setCell(15, 3, 2890);
+data.setCell(15, 3, 1119);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testPostOrderPets')
-data.setCell(16, 2, 'api.test.StoreTests')
-data.setCell(16, 3, 2790);
+data.setCell(16, 1, 'testUpdateuser')
+data.setCell(16, 2, 'api.test.DDTests')
+data.setCell(16, 3, 1118);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testPostOrderPets')
-data.setCell(17, 2, 'api.test.StoreTests')
-data.setCell(17, 3, 2741);
+data.setCell(17, 1, 'testUpdateuser')
+data.setCell(17, 2, 'api.test.DDTests')
+data.setCell(17, 3, 1117);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testGetUserByName')
-data.setCell(18, 2, 'api.test.UserTests')
-data.setCell(18, 3, 2622);
+data.setCell(18, 1, 'testPostOrderPets')
+data.setCell(18, 2, 'api.test.StoreTests')
+data.setCell(18, 3, 1117);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testPostuser')
+data.setCell(19, 1, 'testUpdateuser')
 data.setCell(19, 2, 'api.test.DDTests')
-data.setCell(19, 3, 2525);
+data.setCell(19, 3, 1115);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testPostOrderPets')
-data.setCell(20, 2, 'api.test.StoreTests')
-data.setCell(20, 3, 2521);
+data.setCell(20, 1, 'testAddPet')
+data.setCell(20, 2, 'api.test.PetTests')
+data.setCell(20, 3, 1108);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'testDeleteUserByName')
+data.setCell(21, 1, 'testPostuser')
 data.setCell(21, 2, 'api.test.DDTests')
-data.setCell(21, 3, 2467);
+data.setCell(21, 3, 1105);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testDeleteUserByName')
-data.setCell(22, 2, 'api.test.DDTests')
-data.setCell(22, 3, 2461);
+data.setCell(22, 1, 'testdeleteById')
+data.setCell(22, 2, 'api.test.PetTests')
+data.setCell(22, 3, 1104);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'testDeleteUserByName')
-data.setCell(23, 2, 'api.test.UserTests')
-data.setCell(23, 3, 2414);
+data.setCell(23, 1, 'testPostOrderPets')
+data.setCell(23, 2, 'api.test.StoreTests')
+data.setCell(23, 3, 1103);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'testCreateUser')
-data.setCell(24, 2, 'api.test.UserTests')
-data.setCell(24, 3, 2386);
+data.setCell(24, 1, 'testPostuser')
+data.setCell(24, 2, 'api.test.DDTests')
+data.setCell(24, 3, 1102);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testPostuser')
-data.setCell(25, 2, 'api.test.DDTests')
-data.setCell(25, 3, 2377);
+data.setCell(25, 1, 'testAddPet')
+data.setCell(25, 2, 'api.test.PetTests')
+data.setCell(25, 3, 1102);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'testPostuser')
 data.setCell(26, 2, 'api.test.DDTests')
-data.setCell(26, 3, 2301);
+data.setCell(26, 3, 1101);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'testPostuser')
+data.setCell(27, 1, 'testDeleteUserByName')
 data.setCell(27, 2, 'api.test.DDTests')
-data.setCell(27, 3, 2282);
+data.setCell(27, 3, 1101);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'testPostOrderPets')
-data.setCell(28, 2, 'api.test.StoreTests')
-data.setCell(28, 3, 2251);
+data.setCell(28, 1, 'testPostuser')
+data.setCell(28, 2, 'api.test.DDTests')
+data.setCell(28, 3, 1098);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'testDeleteUserByName')
+data.setCell(29, 1, 'testPostuser')
 data.setCell(29, 2, 'api.test.DDTests')
-data.setCell(29, 3, 2247);
+data.setCell(29, 3, 1089);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'testGetOrderId')
-data.setCell(30, 2, 'api.test.StoreTests')
-data.setCell(30, 3, 2214);
+data.setCell(30, 1, 'testPostuser')
+data.setCell(30, 2, 'api.test.DDTests')
+data.setCell(30, 3, 1088);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'testdeleteOrderId')
-data.setCell(31, 2, 'api.test.StoreTests')
-data.setCell(31, 3, 2212);
+data.setCell(31, 1, 'testUpdateuser')
+data.setCell(31, 2, 'api.test.DDTests')
+data.setCell(31, 3, 1087);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'testDeleteUserByName')
-data.setCell(32, 2, 'api.test.DDTests')
-data.setCell(32, 3, 2198);
+data.setCell(32, 1, 'testPostOrderPets')
+data.setCell(32, 2, 'api.test.StoreTests')
+data.setCell(32, 3, 1087);
 data.setCell(33, 0, 33)
 data.setCell(33, 1, 'testDeleteUserByName')
 data.setCell(33, 2, 'api.test.DDTests')
-data.setCell(33, 3, 2137);
+data.setCell(33, 3, 1087);
 data.setCell(34, 0, 34)
 data.setCell(34, 1, 'testPostOrderPets')
 data.setCell(34, 2, 'api.test.StoreTests')
-data.setCell(34, 3, 2127);
+data.setCell(34, 3, 1087);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'testPostOrderPets')
-data.setCell(35, 2, 'api.test.StoreTests')
-data.setCell(35, 3, 2073);
+data.setCell(35, 1, 'testDeleteUserByName')
+data.setCell(35, 2, 'api.test.DDTests')
+data.setCell(35, 3, 1086);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'testDeleteUserByName')
-data.setCell(36, 2, 'api.test.DDTests')
-data.setCell(36, 3, 2040);
+data.setCell(36, 1, 'testAddPet')
+data.setCell(36, 2, 'api.test.PetTests')
+data.setCell(36, 3, 1086);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'testUpdateuser')
-data.setCell(37, 2, 'api.test.DDTests')
-data.setCell(37, 3, 2024);
+data.setCell(37, 1, 'testDeleteUserByName')
+data.setCell(37, 2, 'api.test.UserTests')
+data.setCell(37, 3, 1086);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'testUpdateuser')
-data.setCell(38, 2, 'api.test.DDTests')
-data.setCell(38, 3, 2001);
+data.setCell(38, 1, 'testUpdatePet')
+data.setCell(38, 2, 'api.test.PetTests')
+data.setCell(38, 3, 1086);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'testPostuser')
-data.setCell(39, 2, 'api.test.DDTests')
-data.setCell(39, 3, 1943);
+data.setCell(39, 1, 'testAddPet')
+data.setCell(39, 2, 'api.test.PetTests')
+data.setCell(39, 3, 1086);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'testPostuser')
-data.setCell(40, 2, 'api.test.DDTests')
-data.setCell(40, 3, 1668);
+data.setCell(40, 1, 'testAddPet')
+data.setCell(40, 2, 'api.test.PetTests')
+data.setCell(40, 3, 1084);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'testPostuser')
-data.setCell(41, 2, 'api.test.DDTests')
-data.setCell(41, 3, 1610);
+data.setCell(41, 1, 'testAddPet')
+data.setCell(41, 2, 'api.test.PetTests')
+data.setCell(41, 3, 1084);
 data.setCell(42, 0, 42)
-data.setCell(42, 1, 'testUpdateuser')
-data.setCell(42, 2, 'api.test.DDTests')
-data.setCell(42, 3, 1522);
+data.setCell(42, 1, 'testCreateUser')
+data.setCell(42, 2, 'api.test.UserTests')
+data.setCell(42, 3, 1084);
 data.setCell(43, 0, 43)
-data.setCell(43, 1, 'testUpdateuser')
-data.setCell(43, 2, 'api.test.DDTests')
-data.setCell(43, 3, 1348);
+data.setCell(43, 1, 'testAddPet')
+data.setCell(43, 2, 'api.test.PetTests')
+data.setCell(43, 3, 1084);
 data.setCell(44, 0, 44)
-data.setCell(44, 1, 'testUpdateuser')
+data.setCell(44, 1, 'testPostuser')
 data.setCell(44, 2, 'api.test.DDTests')
-data.setCell(44, 3, 1205);
+data.setCell(44, 3, 1084);
 data.setCell(45, 0, 45)
-data.setCell(45, 1, 'testDeleteUserByName')
-data.setCell(45, 2, 'api.test.DDTests')
-data.setCell(45, 3, 1202);
+data.setCell(45, 1, 'testPostOrderPets')
+data.setCell(45, 2, 'api.test.StoreTests')
+data.setCell(45, 3, 1080);
 data.setCell(46, 0, 46)
-data.setCell(46, 1, 'testDeleteUserByName')
-data.setCell(46, 2, 'api.test.DDTests')
-data.setCell(46, 3, 1135);
+data.setCell(46, 1, 'testAddPet')
+data.setCell(46, 2, 'api.test.PetTests')
+data.setCell(46, 3, 1078);
 data.setCell(47, 0, 47)
-data.setCell(47, 1, 'testDeleteUserByName')
-data.setCell(47, 2, 'api.test.DDTests')
-data.setCell(47, 3, 1133);
+data.setCell(47, 1, 'testPostOrderPets')
+data.setCell(47, 2, 'api.test.StoreTests')
+data.setCell(47, 3, 1073);
 data.setCell(48, 0, 48)
-data.setCell(48, 1, 'testUpdateuser')
-data.setCell(48, 2, 'api.test.DDTests')
-data.setCell(48, 3, 1129);
+data.setCell(48, 1, 'testStoreInventory')
+data.setCell(48, 2, 'api.test.StoreTests')
+data.setCell(48, 3, 1071);
 data.setCell(49, 0, 49)
-data.setCell(49, 1, 'testUpdateuser')
-data.setCell(49, 2, 'api.test.DDTests')
-data.setCell(49, 3, 1107);
+data.setCell(49, 1, 'testPostOrderPets')
+data.setCell(49, 2, 'api.test.StoreTests')
+data.setCell(49, 3, 1071);
 data.setCell(50, 0, 50)
-data.setCell(50, 1, 'testUpdateuser')
-data.setCell(50, 2, 'api.test.DDTests')
-data.setCell(50, 3, 1094);
+data.setCell(50, 1, 'testGetOrderId')
+data.setCell(50, 2, 'api.test.StoreTests')
+data.setCell(50, 3, 1071);
 data.setCell(51, 0, 51)
 data.setCell(51, 1, 'testUpdateuser')
 data.setCell(51, 2, 'api.test.DDTests')
-data.setCell(51, 3, 1086);
+data.setCell(51, 3, 1070);
 data.setCell(52, 0, 52)
-data.setCell(52, 1, 'testUpdateuser')
-data.setCell(52, 2, 'api.test.DDTests')
-data.setCell(52, 3, 1083);
+data.setCell(52, 1, 'testUpdatePet')
+data.setCell(52, 2, 'api.test.PetTests')
+data.setCell(52, 3, 1068);
 data.setCell(53, 0, 53)
-data.setCell(53, 1, 'testDeleteUserByName')
+data.setCell(53, 1, 'testPostuser')
 data.setCell(53, 2, 'api.test.DDTests')
-data.setCell(53, 3, 1081);
+data.setCell(53, 3, 1067);
 data.setCell(54, 0, 54)
-data.setCell(54, 1, 'testDeleteUserByName')
+data.setCell(54, 1, 'testUpdateuser')
 data.setCell(54, 2, 'api.test.DDTests')
-data.setCell(54, 3, 1080);
+data.setCell(54, 3, 1065);
 data.setCell(55, 0, 55)
-data.setCell(55, 1, 'testUpdateuser')
+data.setCell(55, 1, 'testPostuser')
 data.setCell(55, 2, 'api.test.DDTests')
-data.setCell(55, 3, 1072);
+data.setCell(55, 3, 1064);
 data.setCell(56, 0, 56)
 data.setCell(56, 1, 'testUpdateuser')
 data.setCell(56, 2, 'api.test.DDTests')
-data.setCell(56, 3, 1053);
+data.setCell(56, 3, 1057);
 data.setCell(57, 0, 57)
-data.setCell(57, 1, 'testDeleteUserByName')
-data.setCell(57, 2, 'api.test.DDTests')
-data.setCell(57, 3, 1051);
+data.setCell(57, 1, 'testGetUserByName')
+data.setCell(57, 2, 'api.test.UserTests')
+data.setCell(57, 3, 1057);
 data.setCell(58, 0, 58)
 data.setCell(58, 1, 'testUpdateuser')
 data.setCell(58, 2, 'api.test.DDTests')
-data.setCell(58, 3, 1037);
+data.setCell(58, 3, 1056);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testPostOrderPets')
+data.setCell(59, 2, 'api.test.StoreTests')
+data.setCell(59, 3, 1056);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testAddPet')
+data.setCell(60, 2, 'api.test.PetTests')
+data.setCell(60, 3, 1055);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testUpdateuser')
+data.setCell(61, 2, 'api.test.DDTests')
+data.setCell(61, 3, 1054);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testPostuser')
+data.setCell(62, 2, 'api.test.DDTests')
+data.setCell(62, 3, 1054);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testUpdatePet')
+data.setCell(63, 2, 'api.test.PetTests')
+data.setCell(63, 3, 1054);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testPostuser')
+data.setCell(64, 2, 'api.test.DDTests')
+data.setCell(64, 3, 1054);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testAddPet')
+data.setCell(65, 2, 'api.test.PetTests')
+data.setCell(65, 3, 1053);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testAddPet')
+data.setCell(66, 2, 'api.test.PetTests')
+data.setCell(66, 3, 1052);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testUpdatePet')
+data.setCell(67, 2, 'api.test.PetTests')
+data.setCell(67, 3, 1052);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'testfindPetId')
+data.setCell(68, 2, 'api.test.PetTests')
+data.setCell(68, 3, 1051);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testPostuser')
+data.setCell(69, 2, 'api.test.DDTests')
+data.setCell(69, 3, 1050);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testDeleteUserByName')
+data.setCell(70, 2, 'api.test.DDTests')
+data.setCell(70, 3, 1048);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testDeleteUserByName')
+data.setCell(71, 2, 'api.test.DDTests')
+data.setCell(71, 3, 1043);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'testPostuser')
+data.setCell(72, 2, 'api.test.DDTests')
+data.setCell(72, 3, 1041);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'testDeleteUserByName')
+data.setCell(73, 2, 'api.test.DDTests')
+data.setCell(73, 3, 1038);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'testUpdatePet')
+data.setCell(74, 2, 'api.test.PetTests')
+data.setCell(74, 3, 1036);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'testAddPet')
+data.setCell(75, 2, 'api.test.PetTests')
+data.setCell(75, 3, 1029);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'testDeleteUserByName')
+data.setCell(76, 2, 'api.test.DDTests')
+data.setCell(76, 3, 1024);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'testDeleteUserByName')
+data.setCell(77, 2, 'api.test.DDTests')
+data.setCell(77, 3, 1024);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'testPostOrderPets')
+data.setCell(78, 2, 'api.test.StoreTests')
+data.setCell(78, 3, 1023);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'testDeleteUserByName')
+data.setCell(79, 2, 'api.test.DDTests')
+data.setCell(79, 3, 1022);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'testDeleteUserByName')
+data.setCell(80, 2, 'api.test.DDTests')
+data.setCell(80, 3, 1011);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'testDeleteUserByName')
+data.setCell(81, 2, 'api.test.DDTests')
+data.setCell(81, 3, 1008);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -1226,245 +1653,344 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1251, testuser2, Kim, Kom, b@gmail.com, test@2, 1234567897)</span>
-                <span class="method-start">6981 ms</span>
+                <span class="method-start">3872 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1252, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897)</span>
-                <span class="method-start">10369 ms</span>
+                <span class="method-start">4956 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1253, testuser4, abc, def, a@gmail.com, test@4, 1234567897)</span>
-                <span class="method-start">15361 ms</span>
+                <span class="method-start">6057 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1254, testuser5, fhi, klm, b@gmail.com, test@5, 1234567897)</span>
-                <span class="method-start">17645 ms</span>
+                <span class="method-start">7107 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1255, testuser6, nop, qrs, c@gmail.com, test@6, 1234567897)</span>
-                <span class="method-start">20175 ms</span>
+                <span class="method-start">8161 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1256, testuser7, tuv, wxyz, a@gmail.com, test@7, 1234567897)</span>
-                <span class="method-start">22120 ms</span>
+                <span class="method-start">9266 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1257, testuser8, adf, affd, b@gmail.com, test@8, 1234567897)</span>
-                <span class="method-start">24422 ms</span>
+                <span class="method-start">10354 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1258, testuser9, ewrre, efggv, c@gmail.com, test@9, 1234567897)</span>
-                <span class="method-start">26091 ms</span>
+                <span class="method-start">11421 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1259, testuser10, ggeed, hjhlne, a@gmail.com, test@10, 1234567897)</span>
-                <span class="method-start">29251 ms</span>
+                <span class="method-start">12475 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1260, testuser11, oijklnv, hbbo, b@gmail.com, test@11, 1234567897)</span>
-                <span class="method-start">30863 ms</span>
+                <span class="method-start">13577 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1261, testuser12, onjnvm, nloijhbhg, c@gmail.com, test@12, 1234567897)</span>
-                <span class="method-start">33242 ms</span>
+                <span class="method-start">14666 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1262, testuser13, nbljjee, nlkjhd, a@gmail.com, test@13, 1234567897)</span>
-                <span class="method-start">36235 ms</span>
+                <span class="method-start">15730 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostuser(1263, testuser14, bkjhflkj, nkjkljle, b@gmail.com, test@14, 1234567897)</span>
-                <span class="method-start">39668 ms</span>
+                <span class="method-start">16771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser1, a, b, c@gmail.com)</span>
-                <span class="method-start">44915 ms</span>
+                <span class="method-start">18923 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser2, c, d, d@gmail.com)</span>
-                <span class="method-start">49262 ms</span>
+                <span class="method-start">20038 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser3, e, f, e@gmail.com)</span>
-                <span class="method-start">50611 ms</span>
+                <span class="method-start">21169 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser4, g, h, c@gmail.com)</span>
-                <span class="method-start">51698 ms</span>
+                <span class="method-start">22225 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser5, i, j, d@gmail.com)</span>
-                <span class="method-start">52782 ms</span>
+                <span class="method-start">23359 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser6, k, l, e@gmail.com)</span>
-                <span class="method-start">53855 ms</span>
+                <span class="method-start">24542 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser7, m, n, c@gmail.com)</span>
-                <span class="method-start">54893 ms</span>
+                <span class="method-start">25596 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser8, o, p, d@gmail.com)</span>
-                <span class="method-start">55947 ms</span>
+                <span class="method-start">26714 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser9, q, r, e@gmail.com)</span>
-                <span class="method-start">57042 ms</span>
+                <span class="method-start">27831 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser10, s, t, c@gmail.com)</span>
-                <span class="method-start">58172 ms</span>
+                <span class="method-start">28896 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser11, u, v, d@gmail.com)</span>
-                <span class="method-start">60174 ms</span>
+                <span class="method-start">29966 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser12, w, x, e@gmail.com)</span>
-                <span class="method-start">61696 ms</span>
+                <span class="method-start">31145 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser13, y, z, c@gmail.com)</span>
-                <span class="method-start">62901 ms</span>
+                <span class="method-start">32232 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateuser(testuser14, ab, cd, d@gmail.com)</span>
-                <span class="method-start">64009 ms</span>
+                <span class="method-start">33410 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser1)</span>
-                <span class="method-start">66473 ms</span>
+                <span class="method-start">34718 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser2)</span>
-                <span class="method-start">69364 ms</span>
+                <span class="method-start">35864 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser3)</span>
-                <span class="method-start">71612 ms</span>
+                <span class="method-start">36888 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser4)</span>
-                <span class="method-start">72815 ms</span>
+                <span class="method-start">37975 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser5)</span>
-                <span class="method-start">73867 ms</span>
+                <span class="method-start">38999 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser6)</span>
-                <span class="method-start">74948 ms</span>
+                <span class="method-start">40100 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser7)</span>
-                <span class="method-start">76030 ms</span>
+                <span class="method-start">41124 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser8)</span>
-                <span class="method-start">78168 ms</span>
+                <span class="method-start">42135 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser9)</span>
-                <span class="method-start">80636 ms</span>
+                <span class="method-start">43254 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser10)</span>
-                <span class="method-start">85187 ms</span>
+                <span class="method-start">44297 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser11)</span>
-                <span class="method-start">87649 ms</span>
+                <span class="method-start">45383 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser12)</span>
-                <span class="method-start">89848 ms</span>
+                <span class="method-start">46421 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser13)</span>
-                <span class="method-start">90982 ms</span>
+                <span class="method-start">47557 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName(testuser14)</span>
-                <span class="method-start">92119 ms</span>
+                <span class="method-start">48605 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.PetTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@16c8e9b8)</span>
+                <span class="method-start">51635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@6738e8b2)</span>
+                <span class="method-start">52893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@31c0c7e5)</span>
+                <span class="method-start">53993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@10830d50)</span>
+                <span class="method-start">55071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@50013a15)</span>
+                <span class="method-start">56100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@2e64ae1a)</span>
+                <span class="method-start">57186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@7bdf94f2)</span>
+                <span class="method-start">58400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@7b9fea11)</span>
+                <span class="method-start">59486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@1e36baca)</span>
+                <span class="method-start">60588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@7d4bdbd8)</span>
+                <span class="method-start">61641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@1e14b269)</span>
+                <span class="method-start">62725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@176e839e)</span>
+                <span class="method-start">63777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@632b96b8)</span>
+                <span class="method-start">64832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPet(api.payload.Pet@2245ccaa)</span>
+                <span class="method-start">65916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(api.payload.Pet@33563147)</span>
+                <span class="method-start">67730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(api.payload.Pet@66046e7c)</span>
+                <span class="method-start">68798 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(api.payload.Pet@282aea3c)</span>
+                <span class="method-start">69884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(api.payload.Pet@35e357b)</span>
+                <span class="method-start">70936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(api.payload.Pet@6127ef86)</span>
+                <span class="method-start">71990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindByStatus(available)</span>
+                <span class="method-start">73057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindPetId(5)</span>
+                <span class="method-start">74582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet1(api.payload.Pet@29c21acb)</span>
+                <span class="method-start">75711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testdeleteById(4)</span>
+                <span class="method-start">76874 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.test.StoreTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(124, 167, 1, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">95825 ms</span>
+                <span class="method-start">78542 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(125, 168, 2, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">97899 ms</span>
+                <span class="method-start">79662 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(126, 169, 3, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">101030 ms</span>
+                <span class="method-start">80779 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(127, 170, 4, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">103772 ms</span>
+                <span class="method-start">81882 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(128, 171, 5, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">106563 ms</span>
+                <span class="method-start">82955 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(129, 172, 6, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">109504 ms</span>
+                <span class="method-start">84048 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(130, 173, 7, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">111633 ms</span>
+                <span class="method-start">85128 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(131, 174, 8, 2024-06-10T15:07:58.751Z, placed, TRUE)</span>
-                <span class="method-start">114728 ms</span>
+                <span class="method-start">86215 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(132, 175, 9, 2024-06-10T15:07:58.751Z, placed, FALSE)</span>
-                <span class="method-start">120602 ms</span>
+                <span class="method-start">87271 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostOrderPets(133, 176, 10, 2024-06-10T15:07:58.751Z, placed, FALSE)</span>
-                <span class="method-start">123125 ms</span>
+                <span class="method-start">88358 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testStoreInventory</span>
-                <span class="method-start">125378 ms</span>
+                <span class="method-start">89381 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testGetOrderId(7)</span>
-                <span class="method-start">128398 ms</span>
+                <span class="method-start">90468 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testdeleteOrderId(7)</span>
-                <span class="method-start">130640 ms</span>
+                <span class="method-start">91571 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.test.UserTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupData</span>
-                <span class="method-start">132854 ms</span>
+                <span class="method-start">92734 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser</span>
-                <span class="method-start">133257 ms</span>
+                <span class="method-start">92970 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUserByName</span>
-                <span class="method-start">135645 ms</span>
+                <span class="method-start">94054 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateUserByName</span>
-                <span class="method-start">138269 ms</span>
+                <span class="method-start">95111 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName</span>
-                <span class="method-start">143032 ms</span>
+                <span class="method-start">97205 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

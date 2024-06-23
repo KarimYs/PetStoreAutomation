@@ -1,4 +1,5 @@
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\endpoints\OrderorDeleteById.java
+C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\endpoints\PetEndpoints.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\endpoints\Routes.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\endpoints\StoreUsers.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\endpoints\UserEndPoints.java
@@ -9,6 +10,7 @@ C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\payload\St
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\payload\User.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\test\DDTests.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\test\OrderorDeleteByIdTests.java
+C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\test\PetTests.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\test\StoreTests.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\test\UserTests.java
 C:\Users\yskar\eclipse-workspace\PetStoreAutomation\src\test\java\api\test\UserTests2.java

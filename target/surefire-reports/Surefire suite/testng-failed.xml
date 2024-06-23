@@ -9,11 +9,6 @@
           <include name="testdeleteOrderId" invocation-numbers="0"/>
         </methods>
       </class> <!-- api.test.StoreTests -->
-      <class name="api.test.OrderorDeleteByIdTests">
-        <methods>
-          <include name="testGetOrderId" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- api.test.OrderorDeleteByIdTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
