@@ -3,81 +3,110 @@ package api.payload;
 import java.util.List;
 
 public class Pet {
+    private int id;
+    private Category category;
+    private String name;
+    private List<String> photoUrls;
+    private List<Tag> tags;
+    private String status;
+    private int petid;
+    public int getPetid() {
+		return petid;
+	}
+
+	public void setPetid(int petid) {
+		this.petid = petid;
+	}
+
 	
-	int id;
-	
-	public String getStatus() {
-		return status;
-	}
 
-	public void setStatus(String status) {
-		this.status = status;
-	}
+    public static class Category {
+        private int id;
+        private String name;
 
-	String status;
-	
-	List<String> photoUrls;
-	
-	public List<String> getPhotoUrls() {
-		return photoUrls;
-	}
+        public int getId() {
+            return id;
+        }
 
-	public void setPhotoUrls(List<String> photoUrls) {
-		this.photoUrls = photoUrls;
-	}
+        public void setId(int id) {
+            this.id = id;
+        }
 
-	public String getName() {
-		return name;
-	}
+        public String getName() {
+            return name;
+        }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
 
-	String name;
+    public static class Tag {
+        private int id;
+        private String name;
 
-	public int getId() {
-		return id;
-	}
+        public int getId() {
+            return id;
+        }
 
-	public void setId(int id) {
-		this.id = id;
-	}
-	
-	class category
-	{
-		public int getId() {
-			return id;
-		}
-		public void setId(int id) {
-			this.id = id;
-		}
-		public String getName() {
-			return name;
-		}
-		public void setName(String name) {
-			this.name = name;
-		}
-		int id;
-		String name;
-		
-		class Tag
-		{
-			public int getId() {
-				return id;
-			}
-			public void setId(int id) {
-				this.id = id;
-			}
-			public String getName() {
-				return name;
-			}
-			public void setName(String name) {
-				this.name = name;
-			}
-			int id;
-			String name;
-		}
-	}
+        public void setId(int id) {
+            this.id = id;
+        }
 
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<String> getPhotoUrls() {
+        return photoUrls;
+    }
+
+    public void setPhotoUrls(List<String> photoUrls) {
+        this.photoUrls = photoUrls;
+    }
+
+    public List<Tag> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tag> tags) {
+        this.tags = tags;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }

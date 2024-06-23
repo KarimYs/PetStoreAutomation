@@ -34,12 +34,12 @@ public class Routes {
 	
 	//Pet Module
 	
-	public static String order_pet_url = store_url +"/pet";
-	public static String update_existing_pet_url = store_url +"/pet";
-	public static String findby_status_pet_url = store_url +"/findbystatus";
-	public static String get_pet_url = store_url + "/pet/{petid}";
-	public static String update_pet_url = store_url + "/pet/{petid}";
-	public static String delete_pet_url = store_url + "/pet/{petid}";
+	public static String order_pet_url = base_url +"/pet";
+	public static String update_existing_pet_url = base_url +"/pet";
+	public static String findby_status_pet_url = base_url +"/pet/findByStatus";
+	public static String get_pet_url = base_url + "/pet/{petid}";
+	public static String update_pet_url = base_url + "/pet/{petid}";
+	public static String delete_pet_url = base_url + "/pet/{petid}";
 	
 	
 	
