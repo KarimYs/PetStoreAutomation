@@ -6,6 +6,7 @@
       <class name="api.test.StoreTests">
         <methods>
           <include name="testGetOrderId" invocation-numbers="0"/>
+          <include name="testdeleteOrderId" invocation-numbers="0"/>
         </methods>
       </class> <!-- api.test.StoreTests -->
     </classes>
